@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import './Hamburger.css';
+import {Link} from "react-router-dom";
 
 const Hamburger = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -16,8 +16,8 @@ const Hamburger = () => {
                 <div className="line"></div>
             </div>
             <div className={`dropdown-menu ${isOpen ? 'show' : ''}`}>
-                <a href="#home">Home</a>
-                <a href="#about">Blog</a>
+                <Link to="/Navbar">Home</Link>
+                <Link to="/Blog">Blog</Link>
                 <a href="#services">Contact Me</a>
             </div>
         </div>

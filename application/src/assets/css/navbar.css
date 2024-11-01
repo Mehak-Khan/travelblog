@@ -150,6 +150,15 @@ html,body{
   margin:0;
   height:120%;
   font-family: 'Josefin Sans', sans-serif;
+  background: linear-gradient(to right, 
+  rgba(255, 255, 255, 0.9) 0%, /* Lightest shade */
+  rgba(200, 200, 200, 0.9) 25%, /* Light gray on the outer left */
+  rgba(220, 220, 220, 0.9) 40%, /* Lighter gray for the center */
+  #ccc 50%, /* Lighter gray for the center (adjusted from #555) */
+  rgba(220, 220, 220, 0.9) 60%, /* Lighter gray mirrored */
+  rgba(200, 200, 200, 0.9) 75%, /* Light gray on the outer right */
+  rgba(255, 255, 255, 0.9) 100% /* Lightest shade */
+);
 
 }
 a{
@@ -187,11 +196,12 @@ a{
   }
   .content{  
     padding:5% 10%;
-    text-align:justify
+    text-align:justify;
+    font-size: 1.2em;
   }
   .btn{
     color:#333;
-    border:2px solid;
+    border:2px solid #555;
     border-radius:3px;
     text-decoration:none;
     display:inline-block;
@@ -200,7 +210,7 @@ a{
   }
   
   .insta{
-    margin-top:100px
+    margin-top:100px;
   }.btn.insta:after{content:"\1F6EB";padding-left:5px}
   .learn{
       margin-top:30px

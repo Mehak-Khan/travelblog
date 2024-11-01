@@ -2,8 +2,10 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Hamburger from "./Hamburger";
-import cover from './assets/images/cover.JPG';
-import test from './assets/images/laos.jpg';
+import cover from './assets/images/cover.jpg';
+import laos from './assets/images/laos.jpg';
+import siargao from './assets/images/siargao.jpg';
+import kohlanta from './assets/images/kohlanta.jpg';
 
 function Navbar() {
   return (
@@ -22,11 +24,16 @@ function Navbar() {
             <p className="legend">Mount Rinjani, Indonesia</p>
           </div>
           <div>
-            <img src={test} alt="Travel Image 2" />
-            <p className="legend">Vang Vieng, Laos</p>
+            <img src={laos} alt="Travel Image 2" />
+            <p className="legend">Nam Xay Viewpoint, Laos</p>
           </div>
           <div>
-            <img src="image3.jpg" alt="Travel Image 3" />
+            <img src={kohlanta} alt="Travel Image 3" />
+            <p className="legend">Koh Lanta, Thailand</p>
+          </div>
+          <div>
+            <img src={siargao} alt="Travel Image 4" />
+            <p className="legend">Siargao, Philippines</p>
           </div>
           {/* Add more images as needed */}
         </Carousel>
