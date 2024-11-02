@@ -22,6 +22,7 @@ import { Route, Routes, useLocation } from 'react-router-dom';
 import Navbar from './Navbar';
 import Hamburger from './Hamburger';
 import Blog from './Blog';
+import Barcelona from './more-info/Barcelona';
 
 
 function App() {
@@ -29,7 +30,7 @@ function App() {
 
   return (
     <div>
-      {location.pathname !== '/Blog' && (
+      {location.pathname !== '/Blog' && location.pathname !== '/Barcelona' && (
         <>
           <Navbar />
         </>
@@ -38,6 +39,7 @@ function App() {
 
         <Route path="/Blog" element={<Blog />} />
         <Route path="/Home" element={<Navbar />} />
+        <Route path="/Barcelona" element={<Barcelona />} />
       </Routes>
     </div>
   );

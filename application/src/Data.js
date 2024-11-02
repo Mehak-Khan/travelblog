@@ -7,7 +7,7 @@ export default [
         title:"Barcelona",
         date:"19 Feb, 2022- 6 Feb, 2022",
         description:"Barcelona is the cosmopolitan capital of Spain's Catalonia region. Higlights of the trip include Sagrada Familia church, Camp Nou stadium & Montserrat among others.",
-        link: "/more-info/barcelona"    
+        link: "/Barcelona"    
         
     },
     {
