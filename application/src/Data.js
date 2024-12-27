@@ -70,4 +70,244 @@ export default [
     description:""
 
 },
+{
+    id:8,
+    image:"../images/bangkok.jpg",
+    location:"Thailand",
+    map:"https://maps.app.goo.gl/5ZNhJUQZF6E6M1yb6",
+    title:"Bangkok",
+    date:"10 May, 2024- 12 May, 2024",
+    description:""
+
+},
+{
+    id:9,
+    image:"../images/siemreap.jpg",
+    location:"Cambodia",
+    map:"https://maps.app.goo.gl/bc5MJ6cRWxhC4f4V9",
+    title:"Siem Reap",
+    date:"12 May, 2024- 15 May, 2024",
+    description:""
+
+},
+{
+    id:10,
+    image:"../images/hanoi.jpeg",
+    location:"Vietnam",
+    map:"https://maps.app.goo.gl/BGTYLH7h6AQ1QGb26",
+    title:"Hanoi",
+    date:"15 May, 2024- 21 May, 2024, 25 May, 2024- 27 May, 2024",
+    description:""
+
+},
+{
+    id:11,
+    image:"../images/hagiang.jpeg",
+    location:"Vietnam",
+    map:"https://maps.app.goo.gl/tXiGJsS33XsTqk7n8",
+    title:"Ha Giang",
+    date:"21 May, 2024- 25 May, 2024",
+    description:""
+
+},
+{
+    id:12,
+    image:"../images/vientiane.jpg",
+    location:"Laos",
+    map:"https://maps.app.goo.gl/CQbfqafUw4iVFujJ7",
+    title:"Vientiane",
+    date:"27 May, 2024- 28 May, 2024",
+    description:""
+
+},
+{
+    id:13,
+    image:"../images/vangvieng.jpg",
+    location:"Laos",
+    map:"https://maps.app.goo.gl/CsCwwJVHPfQvLe816",
+    title:"Vang Vieng",
+    date:"28 May, 2024- 31 May, 2024",
+    description:""
+
+},
+{
+    id:14,
+    image:"../images/luangprabang.jpg",
+    location:"Laos",
+    map:"https://maps.app.goo.gl/jJMkiTpguL2vZ7uj7",
+    title:"Luang Prabang",
+    date:"31 May, 2024- 3 June, 2024",
+    description:""
+
+},
+{
+    id:16,
+    image:"../images/chiangmai.jpeg",
+    location:"Thailand",
+    map:"https://maps.app.goo.gl/qoB7RgC5yNrjNBKTA",
+    title:"Chiang Mai",
+    date:"3 June, 2024- 7 June, 2024, 10 June, 2024- 12 June, 2024",
+    description:""
+
+},
+{
+    id:17,
+    image:"../images/pai.jpg",
+    location:"Thailand",
+    map:"https://maps.app.goo.gl/1UV4CwJ8fS2PitcEA",
+    title:"Pai",
+    date:"7 June, 2024- 10 June, 2024",
+    description:""
+
+},
+{
+    id:18,
+    image:"../images/krabi.jpg",
+    location:"Thailand",
+    map:"https://maps.app.goo.gl/LNMfXXctnMkBDsdx9",
+    title:"Krabi",
+    date:"12 June, 2024- 14 June, 2024",
+    description:""
+
+},
+{
+    id:19,
+    image:"../images/phiphi.jpg",
+    location:"Thailand",
+    map:"https://maps.app.goo.gl/Vpedjni9nSb252GZA",
+    title:"Phi Phi",
+    date:"14 June, 2024- 16 June, 2024",
+    description:""
+
+},
+{
+    id:20,
+    image:"../images/kolanta.jpeg",
+    location:"Thailand",
+    map:"https://maps.app.goo.gl/1dm8zHfuSbDszb3X8",
+    title:"Ko Lanta",
+    date:"16 June, 2024- 20 June, 2024",
+    description:""
+
+},
+{
+    id:21,
+    image:"../images/kohphangan.jpeg",
+    location:"Thailand",
+    map:"https://maps.app.goo.gl/FKSj7waWvSD1mnSYA",
+    title:"Koh Phangan",
+    date:"20 June, 2024- 23 June, 2024",
+    description:""
+
+},
+{
+    id:22,
+    image:"../images/kotao.jpg",
+    location:"Thailand",
+    map:"https://maps.app.goo.gl/JnDRGDyxC6N6HSFL9",
+    title:"Koh Tao",
+    date:"23 June, 2024- 1 July, 2024",
+    description:""
+
+},
+{
+    id:23,
+    image:"../images/bali.jpeg",
+    location:"Indonesia",
+    map:"https://maps.app.goo.gl/sxxzEtDECztdPtrT8",
+    title:"Bali",
+    date:"2 July, 2024- 8 July, 2024",
+    description:""
+
+},
+{
+    id:24,
+    image:"../images/giliair.jpeg",
+    location:"Indonesia",
+    map:"https://maps.app.goo.gl/T2BC6B6jkv5jBshSA",
+    title:"Gili Air",
+    date:"8 July, 2024- 10 July, 2024",
+    description:""
+
+},
+{
+    id:24,
+    image:"../images/lombok.jpg",
+    location:"Indonesia",
+    map:"https://maps.app.goo.gl/fRRBmyNNvW4kDoLm8",
+    title:"Lombok",
+    date:"10 July, 2024- 15 July, 2024",
+    description:""
+
+},
+{
+    id:25,
+    image:"../images/nusapenida.jpeg",
+    location:"Indonesia",
+    map:"https://maps.app.goo.gl/jpp5ej3BHsStVDqo6",
+    title:"Nusa Penida",
+    date:"15 July, 2024- 18 July, 2024",
+    description:""
+
+},
+{
+    id:26,
+    image:"../images/siargao.jpeg",
+    location:"Philippines",
+    map:"https://maps.app.goo.gl/9Yod7Rc4tcmEwfrz8",
+    title:"Siargao",
+    date:"18 July, 2024- 30 July, 2024",
+    description:""
+
+},
+{
+    id:27,
+    image:"../images/manila.jpg",
+    location:"Philippines",
+    map:"https://maps.app.goo.gl/xwfoTShJJa2oDAsq7",
+    title:"Manila",
+    date:"30 July, 2024- 31 July, 2024",
+    description:""
+
+},
+{
+    id:28,
+    image:"../images/london.jpg",
+    location:"UK",
+    map:"https://maps.app.goo.gl/kZDZGdbA8HtnaWfv8",
+    title:"London",
+    date:"12 October, 2024- 14 October, 2024",
+    description:""
+
+},
+{
+    id:29,
+    image:"../images/marrakech.jpg",
+    location:"Morocco",
+    map:"https://maps.app.goo.gl/teVSQFcnWafoVMpg8",
+    title:"Marrakech",
+    date:"14 October, 2024- 16 October, 2024",
+    description:""
+
+},
+{
+    id:29,
+    image:"../images/merzouga.jpg",
+    location:"Morocco",
+    map:"https://maps.app.goo.gl/Haf4URcZBasf51nM8",
+    title:"Merzouga",
+    date:"16 October, 2024- 18 October, 2024",
+    description:""
+
+},
+{
+    id:29,
+    image:"../images/fez.jpg",
+    location:"Morocco",
+    map:"https://maps.app.goo.gl/D2oJFULPt6ZwKYUo8",
+    title:"Fez",
+    date:"18 October, 2024- 21 October, 2024",
+    description:""
+
+},
 ]
