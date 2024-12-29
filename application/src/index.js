@@ -4,6 +4,7 @@ import './assets/css/navbar.css';
 import './assets/css/hamburger.css';
 import './assets/css/card.css';
 import './assets/css/blog_page.css';
+import './assets/css/modal.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 

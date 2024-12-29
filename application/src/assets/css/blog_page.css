@@ -51,68 +51,15 @@ html {
     box-sizing: border-box;
     font-size: 0.8em;
   }
-  
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    visibility: hidden;
-    z-index: 1000;
-  }
 
-  .modal.open {
-    opacity: 1;
-    visibility: visible;
+  .title-blog {
+    font-family: 'Playfair Display', serif; /* Example using Playfair Display */
+    font-size: 36px; /* Larger font size for emphasis */
+    font-weight: bold;
+    color: #333; /* Dark color for contrast */
+    letter-spacing: 1px; /* Slightly increased letter spacing for a more elegant look */
+    margin-bottom: 50px; /* Space below the title */
   }
   
-  .modal-content {
-    background: #fff;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    position: relative;
-    width: 500px;
-    max-width: 90%;
-    max-height: 90%;
-    overflow-y: auto;
-    transition: transform 0.3s;
-  }
-  
-  .modal-content h2 {
-    margin-top: 0;
-    margin-bottom: 1rem;
-  }
-  
-  .modal-content p {
-    margin-bottom: 1rem;
-  }
-  
-  .modal .close {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 1.5rem;
-    cursor: pointer;
-    background: #ff5e5e;
-    color: #fff;
-    border: none;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    transition: background 0.3s;
-  }
 
-  .modal .close:hover {
-    background: #ff3838;
-  }
+

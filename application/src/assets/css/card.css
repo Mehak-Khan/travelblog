@@ -186,6 +186,13 @@
       width: 100%;
       text-align: justify;
     }
+
+    h2 {
+      font-family: 'Arial', sans-serif;
+      font-size: 24px;
+      margin-bottom: 15px;
+      
+    }
   
   
   }

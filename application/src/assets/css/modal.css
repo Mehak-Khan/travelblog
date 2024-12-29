@@ -1,0 +1,105 @@
+.modal-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  
+  .modal-list-item {
+    margin-bottom: 20px;
+  }
+
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    /* transition: opacity 0.3s ease, visibility 0.3s ease; */
+  }
+
+  .modal.open {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .modal-content {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    width: 500px;
+    max-width: 90%;
+    max-height: 90%;
+    overflow-y: auto;
+    transition: transform 0.3s;
+    width: 600px;
+    border: 1px solid #333;
+  }
+  
+  .modal-content h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #222;
+  }
+  
+  .modal-content {
+    margin-bottom: 1rem;
+    color: #444;
+  }
+  
+  .modal .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background: #ff5e5e;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s;
+  }
+
+  .modal .close:hover {
+    background: #ff3838;
+  }
+
+  .modal-rec-title {
+    color: #333;
+    font: bold;
+  }
+
+  .modal-section-title {
+    font-size: 1.2rem; /* Set the size of the title */
+    margin-top: 15px; /* Space above the title */
+    border-bottom: 2px solid #333; /* Adds a solid line under the title */
+    padding-bottom: 5px; /* Adds some space between the title and the line */
+    color:#333;
+  }
+
+  /* Styling for images */
+.section-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+
