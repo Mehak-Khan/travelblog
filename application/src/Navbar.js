@@ -59,7 +59,9 @@ function Navbar() {
         <p align="center">
         <Link to="/Blog" className="btn learn">Learn more about my Travels</Link>
         </p>
-        <p align="center"><a href="https://www.instagram.com/mehaks.living/?hl=en" className="btn questions" target="_b">Have questions? Ask me!</a></p>
+        <p align="center">
+        <Link to="/ContactForm" className="btn questions">Have questions? Ask me!</Link>
+        </p>
       </section>
     </div>
   );

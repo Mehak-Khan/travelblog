@@ -6,22 +6,23 @@ import DayCard from './DayCard';
 import Modal from './Modal';
 
 function Navbar() {
-    const days = [
+    const dayCards = [
         { id: 1, title: 'Overview', 
         summary: '', 
+        type: "overview",
         details: [
           'Barcelona was the destination of my first-ever solo trip, a choice driven by careful research and a desire for both adventure and safety. As a solo female traveler coming from Canada, I prioritized safety, and Barcelona consistently stood out as an ideal location.',
           'Beyond safety, I sought a bit of a culture shock. Traveling within Canada, while beautiful, would not provide the cultural immersion I craved. Barcelona, with its rich history and vibrant culture, promised a unique experience. My fondness for Spanish culture further cemented my decision; the city\'s art, architecture, and culinary delights have always fascinated me.',
           'Barcelona checked all my boxes for a perfect one-week solo trip, and it did not disappoint. From the bustling streets of Las Ramblas to the serene beauty of Park Güell, every moment in this city was a blend of excitement and discovery.',
           'This journey was not just about seeing new places but also about stepping out of my comfort zone and embracing the unknown. Barcelona will forever hold a special place in my heart, as this is where my solo travel adventures began. The city marked the start of a journey that taught me independence, resilience, and the joy of exploring the world on my own terms. It was the perfect beginning to what I hope will be many more solo adventures to come.'
         ], 
-        image: "../../images/sagrada.jpg", 
-        type: "overview",
+        image: "../../images/barcelona/overview.jpg", 
       },
         { id: 2, title: 'Recommendations', 
         summary: 'Today we visited the iconic Sagrada Familia...', 
         details: ['Detailed information about Day 2'], 
         type: "recommendations",
+        image: "../../images/barcelona/recs.jpg",
         accomodation: [
           {
             title: 'Hostel One Paralelo',
@@ -48,6 +49,9 @@ function Navbar() {
           {
             title: 'Montserrat',
             description: 'Montserrat is a mountain range located just outside Barcelona, and it’s one of the most amazing places I visited. The views from the top of Montserrat are absolutely breathtaking, and the monastery at the summit is a peaceful, serene spot to take in the beauty around you. Montserrat offers a unique blend of nature, history, and spiritual tranquility, making it a must-visit destination. I highly recommend spending some time here to fully soak in its beauty.'
+          },
+          {
+            title: 'Gothic Quarters & Food market?'
           }
         ],
         activities: [
@@ -74,8 +78,47 @@ function Navbar() {
         foodImage: "../../images/paella.jpg", // Image for food to try
         activitiesImage: "../../images/montjuic.jpg", // Image for activities}
       },
-        { id: 3, title: 'Personal Stories', summary: 'Today we visited the iconic Sagrada Familia...', details: ['Detailed information about Day 2'] },
-        { id: 4, title: 'Pratical Tips', summary: 'Today we visited the iconic Sagrada Familia...', details: ['Detailed information about Day 2'] }
+      
+        { id: 3, title: 'Personal Stories', 
+        summary: '', 
+        type: 'personal-stories',
+        image: "../../images/barcelona/personal.jpg",
+        details: 
+        [
+        {
+          title: 'Making Friends in the Gothic Quarter',
+          description: 'While roaming the charming streets of the Gothic Quarter, I had an unexpected and delightful experience. A girl asked me to take her photo as she was traveling alone. After helping her out, I asked her to return the favor, and as we were exchanging cameras, another solo traveler overheard us and joined in. The three of us instantly hit it off and spent the next two days exploring Barcelona together. It was an absolute blast! The moral of this story? You never know where and when you’ll meet amazing people. Sometimes, the best travel experiences come from these unexpected encounters.'
+        },
+        {
+          title: 'Learning Salsa on the Subway',
+          description: 'One of the coolest experiences I had in Barcelona was learning how to salsa on the subway! A group of us decided to have a spontaneous dance session, and it turned out to be so much fun. We even took our newfound skills to a local salsa bar afterward, which I highly recommend. The energy, the music, and the sheer joy of dancing with friends made it an unforgettable night. Barcelona truly knows how to bring people together and create lasting memories!'
+        },
+        ]
+      },
+        { id: 4, 
+          title: 'Practical Tips', 
+          summary: 'Today we visited the iconic Sagrada Familia...',
+          type: 'tips',
+          image: "../../images/barcelona/tips.jpg",
+          details: [
+            {
+              title: 'Get a fanny pack!',
+              description: 'Seriously, keep your phone close to you. Pickpocketing is very common in crowded areas, especially around tourist spots. A fanny pack is a great way to keep your valuables secure and easily accessible.'
+            },
+            {
+              title: 'Get a SIM from Airalo.',
+              description: 'It’s cheap, easy, and you’ll stay connected throughout your trip without breaking the bank. Trust me, it’s a lifesaver, and the price is way better than roaming fees from your home country.'
+            },
+            {
+              title: 'Pack a jacket for the evenings - February Edition',
+              description: 'I went in February and didn’t pack enough warm clothes. I figured being from Canada, I wouldn\'t need it, but the nights were chilly! Even if it’s warm during the day, the evenings can get surprisingly cold.'
+            },
+            {
+              title: 'Learn some basic Spanish.',
+              description: 'Learning simple phrases like "Hello," "Thank you," or "Table for one" will go a long way. Even though many people speak English, it’s always appreciated when you try speaking the local language.'
+            }
+          ]
+        }
         // Add more days as needed
       ];
     const [selectedDay, setSelectedDay] = useState(null);
@@ -141,27 +184,8 @@ function Navbar() {
       </div>
       <section className="content">
         <p class="title-blog barcelona">7 days in Barcelona - Welcome to my first solo adventure.</p>
-        {/* <nav>
-        <ul>
-            <li><a href="#day1">Day 1 - Arrival, Montjuic & Bunkers del Carmel</a></li>
-            <li><a href="#day2">Day 2 - Sagrada Familia & Park Güell</a></li>
-            <li><a href="#day3">Day 3</a></li>
-            <li><a href="#day4">Day 4</a></li>
-            <li><a href="#day5">Day 5</a></li>
-            <li><a href="#day6">Day 6</a></li>
-            <li><a href="#day7">Day 7</a></li>
-        </ul>
-    </nav>
-        <section className="days" id="day1">
-            <h2>Day 1: Arrival, Montjuic & Bunkers del Carmel</h2>
-            <p>Welcome to Barcelona! After settling into our hotel, we took a leisurely stroll down La Rambla...</p>
-        </section>
-        <section className="days" id="day2">
-            <h2>Day 2: Sagrada Familia & Park Güell</h2>
-            <p>W....</p>
-        </section> */}
          <div className="day-cards">
-          {days.map(day => (
+          {dayCards.map(day => (
             <DayCard key={day.id} day={day} onClick={() => handleCardClick(day)} />
           ))}
         </div>

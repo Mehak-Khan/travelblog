@@ -35,6 +35,11 @@ const Modal = ({ day, onClose }) => {
             {renderSection("Activities", day.activities, day.activitiesImage)}
           </>
         )}
+                  {(day.type === 'personal-stories' || day.type === 'tips') && (
+          <>
+            {renderSection("", day.details, day.accomodation)}
+          </>
+        )}
       </div>
     </div>
   );

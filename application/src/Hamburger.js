@@ -18,7 +18,7 @@ const Hamburger = () => {
             <div className={`dropdown-menu ${isOpen ? 'show' : ''}`}>
                 <Link to="/Navbar">Home</Link>
                 <Link to="/Blog">Blog</Link>
-                <a href="#services">Contact Me</a>
+                <a href="/ContactForm">Contact Me</a>
             </div>
         </div>
     );
