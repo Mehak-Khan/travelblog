@@ -17,7 +17,8 @@ export default [
         map:"https://maps.app.goo.gl/fJvCWzD29g5mMsKF7",
         title:"Lisbon",
         date:"14 July, 2023- 18  July, 2023",
-        description:"Lisbon is the capital of Portugal. It has beautiful hilly viewpoints and coastal areas. Higlights of the trip include São Jorge Castle, Belem Tower, & National Palace of Pena among others."
+        description:"Lisbon is the capital of Portugal. It has beautiful hilly viewpoints and coastal areas. Higlights of the trip include São Jorge Castle, Belem Tower, & National Palace of Pena among others.",
+        link: "/Lisbon"
 
     },
     {

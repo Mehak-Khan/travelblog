@@ -1,18 +1,25 @@
 import React from 'react';
 
-const renderSection = (title, items, image) => (
+const renderSection = (title, items) => (
   <div className="modal-section">
     <h3 className="modal-section-title">{title}</h3>
     <ul className="modal-list">
       {items.map((item, index) => (
         <li key={index} className="modal-list-item">
-          <strong className = "modal-rec-title">{item.title}</strong>: {item.description}
+          <strong className="modal-rec-title">{item.title}</strong>: <p>{item.description}</p>
+          {item.image && (
+            <img 
+              src={item.image} 
+              alt={item.title} 
+              className="section-image mt-2 rounded-xl shadow-md"
+            />
+          )}
         </li>
       ))}
     </ul>
-    {/* {image && <img src={image} alt={title} className="section-image" />} */}
   </div>
 );
+
 
 const Modal = ({ day, onClose }) => {
   if (!day) return null;
@@ -32,7 +39,8 @@ const Modal = ({ day, onClose }) => {
             {renderSection("Accomodation", day.accomodation, day.accomodation)}
             {renderSection("Places to See", day.placesToSee, day.placesImage)}
             {renderSection("Food to Try", day.foodToTry, day.foodImage)}
-            {renderSection("Activities", day.activities, day.activitiesImage)}
+            {day.activities && day.activities.length > 0 && 
+                renderSection("Activities", day.activities, day.activitiesImage)}
           </>
         )}
                   {(day.type === 'personal-stories' || day.type === 'tips') && (
