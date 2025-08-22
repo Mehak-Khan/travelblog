@@ -13,7 +13,7 @@ function Navbar() {
         details: [
           'Lisbon was my next solo adventure, and it welcomed me with warmth, color, and charm. After Barcelona’s excitement, I wanted a city that felt slower, more contemplative, yet full of life—and Lisbon delivered.',
           'From wandering the vibrant streets of Alfama to soaking in panoramic views at Miradouro da Senhora do Monte, every moment was a mix of discovery and delight. I loved getting lost in its rhythms: sipping Ginjinha from a tiny chocolate cup, exploring Sintra’s fairytale palaces, and wandering past the iconic tiled buildings.',
-          'Lisbon reminded me why I love solo travel—the freedom to follow curiosity, embrace the unexpected, and savor every small, joyful moment. It’s a city that lingers in your heart long after you leave.',
+          'Lisbon reminded me why I love solo travel,  the freedom to follow curiosity, embrace the unexpected, and savor every small, joyful moment. It’s a city that lingers in your heart long after you leave.',
           'This journey strengthened my love for exploration and showed me the beauty of stepping out of my comfort zone. Lisbon will always hold a special place in my heart, adding another unforgettable chapter to my solo travel adventures.'
         ],  
         image: "../../images/lisbon/overview.jpg", 

@@ -28,8 +28,8 @@ export default [
         map:"https://maps.app.goo.gl/BK1RDBVJi1bL9SmM8",
         title:"Nice",
         date:"20 July, 2023- 23  July, 2023",
-        description:"Nice is located on the French Riviera, famuous for its gatorade blue waters and pebble beaches. Higlights include the old Nice, day trips to Monaco and Èze among others."
-
+        description:"Nice is located on the French Riviera, famuous for its gatorade blue waters and pebble beaches. Higlights include the old Nice, day trips to Monaco and Èze among others.",
+        link: "/Nice"
     },
     {
         id:4,
